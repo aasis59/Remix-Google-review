@@ -1,3 +1,4 @@
+import Help from "./Component/Help"
 import Search from "./Component/Search"
 import SetupInstruction from "./Component/SetupInstruction"
 
@@ -8,8 +9,9 @@ function MainPage() {
     <>
       <SetupInstruction/>
    <Search/>
+   <Help/>
     </>
- 
+
   )
 }
 

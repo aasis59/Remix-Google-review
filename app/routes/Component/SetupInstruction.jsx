@@ -10,7 +10,7 @@ import {
   } from "@shopify/polaris";
   import { useState, useCallback } from "react";
   import { ChevronDownIcon } from "@shopify/polaris-icons";
-  
+
   export default function Home() {
     const [open, setOpen] = useState(true);
     const handleToggle = useCallback(() => setOpen((open) => !open), []);
@@ -35,7 +35,7 @@ import {
               ariaControls="basic-collapsible"
               variant="monochromePlain"
             >
-              <Icon source={ChevronDownIcon} />
+              <Icon source={ChevronDownIcon}/>
             </Button>
           </div>
           <Collapsible
@@ -46,9 +46,9 @@ import {
           >
             <List type="number"
             gap="loose">
-              
+
               <List.Item>
-                
+
                 {" "}
                 Start by entering your Google Business Profile name,
                 location,Google Map URL or Google Place ID in the search bar. The
@@ -64,21 +64,21 @@ import {
                 </Link>{" "}
                 to find your Business.
               </List.Item>
-        
-       
+
+
               <List.Item>
                 Choose your desired account from the list and connect it. Once
                 connected, you will see a default preview of the reviews.
-              
+
               </List.Item>
-             
-              
+
+
               <List.Item>
                 To customize the layout and settings, navigate to the 'Layout
                 Template' and 'Layout Settings' sections.
               </List.Item>
-              
-           
+
+
               <List.Item>
                 If you want to add reviews to your store, go to the 'Installation'
                 tab and click on the setup button. This will take you to the
@@ -90,7 +90,7 @@ import {
                 changes. Don't forget to save the changes to publish them on your
                 store.
               </List.Item>
-              
+
             </List>
           </Collapsible>
           <Divider borderColor="border-inverse"/>
@@ -98,4 +98,3 @@ import {
       </Page>
     );
   }
-  

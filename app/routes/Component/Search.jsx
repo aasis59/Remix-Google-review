@@ -5,7 +5,7 @@ export default function Search(){
       <Layout>
         <Layout.Section>
           <Card >
-            <p>View a summary of your online store’s performance.</p>
+            <p>Search</p>
           </Card>
         </Layout.Section>
       </Layout>
