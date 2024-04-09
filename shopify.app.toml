@@ -3,7 +3,7 @@
 client_id = "283e30a82af6c51cf4ddaaf2a4ac7fdc"
 name = "remix-google-review"
 handle = "remix-google-review"
-application_url = "https://extraordinary-constant-rt-instructor.trycloudflare.com"
+application_url = "https://surprised-recorders-medicaid-tr.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://extraordinary-constant-rt-instructor.trycloudflare.com/auth/callback",
-  "https://extraordinary-constant-rt-instructor.trycloudflare.com/auth/shopify/callback",
-  "https://extraordinary-constant-rt-instructor.trycloudflare.com/api/auth/callback"
+  "https://surprised-recorders-medicaid-tr.trycloudflare.com/auth/callback",
+  "https://surprised-recorders-medicaid-tr.trycloudflare.com/auth/shopify/callback",
+  "https://surprised-recorders-medicaid-tr.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

@@ -83,7 +83,7 @@ const ContactUs = () => {
     validateSubject(data.subject);
     if (errors.email || errors.subject || errors.message) return;
     if (!data.email || !data.message || !data.subject) return;
-    // sendMessage(data);
+
   };
 
   return (

@@ -12,7 +12,7 @@ import {
   import { ChevronDownIcon } from "@shopify/polaris-icons";
 
   export default function Home() {
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
     const handleToggle = useCallback(() => setOpen((open) => !open), []);
     return (
       <Page >
