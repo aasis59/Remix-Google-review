@@ -5,11 +5,12 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-// import slider from "./style/newslider.css"
+import type { LinksFunction } from "@remix-run/node"; 
+import styles from './style/newslider.css'
 
 export default function App() {
   return (
-    <html lang="en">
+    <html>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -29,6 +30,6 @@ export default function App() {
     </html>
   );
 }
-// export function links(){
-//   return[{rel:'stylesheet', href:slider}];
-// }
+ export const links: LinksFunction = () => [
+   { rel: "stylesheet", href: styles },
+ ];
