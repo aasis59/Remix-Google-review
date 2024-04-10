@@ -1,4 +1,4 @@
-#review-swiper{
+#review-swiper {
 
   min-height: 190px;
   height: auto;
@@ -8,46 +8,100 @@
   padding: 5px 5px 5px 3px;
 
 }
-#review-card{
+
+#review-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.swiper-button-next , .swiper-button-prev{
+
+.swiper-button-next-one,
+.swiper-button-prev-one {
   color: black !important;
 
 }
+
 .swiper-section {
-  position: relative;}
-  .swiper1-prev {
-    position: absolute !important;
-    color: black !important;
-    top: 50% !important;
-    left: -5% !important;
+  position: relative;
+}
 
-  }
-  .swiper1-next {
-    position: absolute !important;
-    color: black !important;
-    top: 50% !important;
+.swiper1-prev-one {
+  position: absolute !important;
+  color: black !important;
+  top: 50% !important;
+  left: -5% !important;
 
-  }
-  .swiper1-page {
-    position: absolute;
-    color: black !important;}
+}
 
-    .swiper-button-prev::after, .swiper-button-next::after{
-      font-size: 15px !important;
-    }
-    .swiper-pagination-bullet-active{
-      background: black !important;
-    }
-    .swiper-pagination-bullets.swiper-pagination-horizontal{
-      bottom: -25px !important;
-    }
-    /* .swiper-slide{
+.swiper1-prev-two {
+  position: absolute !important;
+  color: black !important;
+  top: 50% !important;
+  left: -5% !important;
+
+}
+
+.swiper1-prev-three {
+  position: absolute !important;
+  color: black !important;
+  top: 50% !important;
+  left: -21px !important;
+
+}
+
+.swiper1-next-one {
+  position: absolute !important;
+  color: black !important;
+  top: 50% !important;
+  
+
+}
+
+.swiper1-next-two {
+  position: absolute !important;
+  color: black !important;
+  top: 50% !important;
+
+}
+
+.swiper1-next-three {
+  position: absolute !important;
+  color: black !important;
+  top: 50% !important;
+  right: -22px;
+
+}
+
+.swiper1-page-one {
+  position: absolute;
+  color: black !important;
+}
+
+.swiper1-page-two {
+  position: absolute;
+  color: black !important;
+}
+
+.swiper1-page-three {
+  position: absolute;
+  color: black !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 15px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: black !important;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -25px !important;
+}
+
+/* .swiper-slide{
       margin-right: 0px !important;
       width: 207px !important;
 
     } */
-

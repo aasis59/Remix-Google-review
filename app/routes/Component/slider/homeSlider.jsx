@@ -25,7 +25,7 @@ function Homeslider() {
                   ))}
             </Box>
           </InlineStack></div>
-          <div style={{ width:'70%' }}><Reviews/></div>
+          <div style={{ width:'70%' }}><Reviews next="one" prev="one" page="one" /></div>
 
     </div>
     </div>

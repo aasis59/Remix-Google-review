@@ -12,31 +12,37 @@ import "swiper/css/scrollbar";
 
 
 
-export default () => {
+export default ({next,prev,page}) => {
   const reviews = review.data;
+  const nextEl = `.swiper1-next-${next}`;
+  const prevEl = `.swiper1-prev-${prev}`;
+  const pageEl = `.swiper1-page-${page}`;
+  const nextElo = `swiper1-next-${next}`;
+  const prevElo = `swiper1-prev-${prev}`;
+  const pageElo = `swiper1-page-${page}`;
   return (
     <div className="swiper-section">
-    <div className="swiper-button-prev swiper1-prev"></div>
+    <div className={`swiper-button-prev ${prevElo}`}></div>
     <Swiper
-      // install Swiper modules
+      
       modules={[Navigation, Pagination,]}
       spaceBetween={10}
       slidesPerView={3}
       navigation={{
           clickable: true,
-          nextEl: ".swiper1-next",
-          prevEl: ".swiper1-prev",
+          nextEl: nextEl,
+          prevEl:prevEl,
         }}
         pagination={{
           clickable: true,
-          el: ".swiper1-page",
+          el: pageEl,
         }}
 
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
     >
 
-{reviews.map((item, index) => (
+{reviews.map((item, _index) => (
         <SwiperSlide key={`${item.id}`}>
           <GoogleSwiper data={item} />
         </SwiperSlide>
@@ -44,9 +50,9 @@ export default () => {
 
 
     </Swiper>
-    <div className="swiper-button-next swiper1-next"></div>
+    <div className={`swiper-button-next ${nextElo}`}></div>
 
-      <div className="swiper-pagination swiper1-page"></div>
+      <div className={`swiper-pagination ${pageElo}`}></div>
 </div>
   );
 };

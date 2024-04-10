@@ -3,7 +3,7 @@
 client_id = "283e30a82af6c51cf4ddaaf2a4ac7fdc"
 name = "remix-google-review"
 handle = "remix-google-review"
-application_url = "https://century-dryer-rugby-satisfy.trycloudflare.com"
+application_url = "https://superior-sms-chronic-nb.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://century-dryer-rugby-satisfy.trycloudflare.com/auth/callback",
-  "https://century-dryer-rugby-satisfy.trycloudflare.com/auth/shopify/callback",
-  "https://century-dryer-rugby-satisfy.trycloudflare.com/api/auth/callback"
+  "https://superior-sms-chronic-nb.trycloudflare.com/auth/callback",
+  "https://superior-sms-chronic-nb.trycloudflare.com/auth/shopify/callback",
+  "https://superior-sms-chronic-nb.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
