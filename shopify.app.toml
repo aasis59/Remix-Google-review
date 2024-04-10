@@ -3,7 +3,11 @@
 client_id = "283e30a82af6c51cf4ddaaf2a4ac7fdc"
 name = "remix-google-review"
 handle = "remix-google-review"
+<<<<<<< HEAD
 application_url = "https://catalogue-antigua-rocket-crucial.trycloudflare.com"
+=======
+application_url = "https://sink-introductory-lotus-binary.trycloudflare.com"
+>>>>>>> c9374b7fe93286314c19a626f89bf9b20b855cfb
 embedded = true
 
 [build]
@@ -17,9 +21,15 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
+<<<<<<< HEAD
   "https://catalogue-antigua-rocket-crucial.trycloudflare.com/auth/callback",
   "https://catalogue-antigua-rocket-crucial.trycloudflare.com/auth/shopify/callback",
   "https://catalogue-antigua-rocket-crucial.trycloudflare.com/api/auth/callback"
+=======
+  "https://sink-introductory-lotus-binary.trycloudflare.com/auth/callback",
+  "https://sink-introductory-lotus-binary.trycloudflare.com/auth/shopify/callback",
+  "https://sink-introductory-lotus-binary.trycloudflare.com/api/auth/callback"
+>>>>>>> c9374b7fe93286314c19a626f89bf9b20b855cfb
 ]
 
 [webhooks]
