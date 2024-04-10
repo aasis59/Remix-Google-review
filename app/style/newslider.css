@@ -45,11 +45,9 @@
     .swiper-pagination-bullets.swiper-pagination-horizontal{
       bottom: -25px !important;
     }
-    .swiper-slide{
+    /* .swiper-slide{
       margin-right: 0px !important;
       width: 207px !important;
 
-    }
-    .swiper-wrapper{
-      gap: 13px !important;
-    }
+    } */
+

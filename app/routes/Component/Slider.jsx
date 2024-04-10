@@ -20,7 +20,7 @@ export default () => {
     <Swiper
       // install Swiper modules
       modules={[Navigation, Pagination,]}
-      spaceBetween={50}
+      spaceBetween={10}
       slidesPerView={3}
       navigation={{
           clickable: true,
@@ -37,7 +37,7 @@ export default () => {
     >
 
 {reviews.map((item, index) => (
-        <SwiperSlide key={index}>
+        <SwiperSlide key={`${item.id}`}>
           <GoogleSwiper data={item} />
         </SwiperSlide>
       ))}
