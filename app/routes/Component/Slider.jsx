@@ -29,13 +29,13 @@ export default () => {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
     >
-      
+
       <SwiperSlide><GoogleSwiper/></SwiperSlide>
       <SwiperSlide><GoogleSwiper/></SwiperSlide>
       <SwiperSlide><GoogleSwiper/></SwiperSlide>
       <SwiperSlide><GoogleSwiper/></SwiperSlide>
-      
-     
+
+
     </Swiper>
   );
 };
