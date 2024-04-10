@@ -6,7 +6,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node"; 
-import styles from './style/newslider.css'
+import styles from './style/newslider.css?url'
 
 export default function App() {
   return (
