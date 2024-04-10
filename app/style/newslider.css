@@ -1,8 +1,55 @@
 #review-swiper{
-  
+
   min-height: 190px;
   height: auto;
   margin-top: 10px;
   background-color: rgb(239, 239, 239);
   color: rgb(48, 48, 48);
+  padding: 5px 5px 5px 3px;
+
 }
+#review-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.swiper-button-next , .swiper-button-prev{
+  color: black !important;
+
+}
+.swiper-section {
+  position: relative;}
+  .swiper1-prev {
+    position: absolute !important;
+    color: black !important;
+    top: 50% !important;
+    left: -5% !important;
+
+  }
+  .swiper1-next {
+    position: absolute !important;
+    color: black !important;
+    top: 50% !important;
+
+  }
+  .swiper1-page {
+    position: absolute;
+    color: black !important;}
+
+    .swiper-button-prev::after, .swiper-button-next::after{
+      font-size: 15px !important;
+    }
+    .swiper-pagination-bullet-active{
+      background: black !important;
+    }
+    .swiper-pagination-bullets.swiper-pagination-horizontal{
+      bottom: -25px !important;
+    }
+    .swiper-slide{
+      margin-right: 0px !important;
+      width: 207px !important;
+
+    }
+    .swiper-wrapper{
+      gap: 13px !important;
+    }

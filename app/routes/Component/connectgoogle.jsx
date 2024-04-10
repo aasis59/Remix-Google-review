@@ -10,7 +10,8 @@ import {
 
 import { review } from "../../constant/review";
 import { useNavigation } from "@remix-run/react";
-  import MySwiper from "./Slider";
+import Homeslider from "./slider/homeSlider";
+
 
 function ConnectGoogle() {
   const image = review.company[0].photo;
@@ -61,7 +62,7 @@ function ConnectGoogle() {
       <Divider borderColor="border-inverse" />
       </Box>
 
- <MySwiper/>
+<Homeslider/>
 
     </main>
   );

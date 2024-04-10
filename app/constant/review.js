@@ -19,7 +19,7 @@ export const review =
           "id": 1,
           "name": "Parbat Limbu",
           "star": 5,
-          "description": "I feel fortunate to have had the opportunity to work with such a remarkable team. Their dedication, unity, and commitment to excellence have left an indelible mark on me. Without a doubt, anyone who has the chance to work with this team is in for an enriching and fulfilling experience.",
+          "description": "I feel fortunate to have had the opportunity to work with such a remarkable team.",
           "date": "2 weeks ago",
           "imageLink": "https://lh3.googleusercontent.com/a/ACg8ocLkG-otiG9fV5UM92LycPHRSN2cOhWb7wUd_LWwvAAG=w36-h36-p-rp-mo-br100",
           "profileLink": "https://www.google.com/maps/contrib/102478938955506277141/reviews?hl=en-US",

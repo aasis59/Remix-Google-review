@@ -4,6 +4,7 @@ import {
 import { useCallback, useState } from 'react';
 import ConnectGoogle from "./Component/connectgoogle";
 import Help from "./Component/Help"
+import Layout from "./Component/layout/layout";
 
 
 
@@ -27,6 +28,7 @@ function Widges() {
       id: "accepts-marketing-1",
       content: "Layout Template",
       panelID: "accepts-marketing-content-1",
+      component:<Layout/>
     },
     {
       id: "repeat-customers-1",
@@ -44,7 +46,7 @@ function Widges() {
     <Page>
      <LegacyCard>
       <LegacyTabs tabs={tabs} selected={selected} onSelect={handleTabChange}>
-        <LegacyCard.Section title={tabs[selected].content}>
+        <LegacyCard.Section>
         <p>{tabs[selected].component}</p>
         </LegacyCard.Section>
       </LegacyTabs>
