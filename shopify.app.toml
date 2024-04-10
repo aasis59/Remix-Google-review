@@ -3,7 +3,7 @@
 client_id = "283e30a82af6c51cf4ddaaf2a4ac7fdc"
 name = "remix-google-review"
 handle = "remix-google-review"
-application_url = "https://surprised-recorders-medicaid-tr.trycloudflare.com"
+application_url = "https://catalogue-antigua-rocket-crucial.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://surprised-recorders-medicaid-tr.trycloudflare.com/auth/callback",
-  "https://surprised-recorders-medicaid-tr.trycloudflare.com/auth/shopify/callback",
-  "https://surprised-recorders-medicaid-tr.trycloudflare.com/api/auth/callback"
+  "https://catalogue-antigua-rocket-crucial.trycloudflare.com/auth/callback",
+  "https://catalogue-antigua-rocket-crucial.trycloudflare.com/auth/shopify/callback",
+  "https://catalogue-antigua-rocket-crucial.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
