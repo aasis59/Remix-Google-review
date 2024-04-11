@@ -3,6 +3,8 @@ import BadgesOne from './badgesOne'
 
 import BadgesTwo from './badgesTwo';
 import BadgesThree from './badgesThree';
+import BadgesFour from './badgesFour';
+import BadgesFive from './badgesFive';
 
 function Layout() {
   return (
@@ -12,6 +14,11 @@ function Layout() {
       <BadgesTwo/>
       <Divider borderColor="border-inverse" />
       <BadgesThree/>
+      <Divider borderColor="border-inverse" />
+      <BadgesFour/>
+      <Divider borderColor="border-inverse" />
+      <BadgesFive/>
+      <Divider borderColor="border-inverse" />
 
     </>
   )

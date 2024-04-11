@@ -1,14 +1,12 @@
 import { Button, InlineGrid, Box, Text } from "@shopify/polaris";
+import SliderFour from "../slider/sliderFour";
 
-import SliderThree from "../slider/sliderThree";
-
-
-function BadgesThree() {
+function BadgesFour() {
   return (
-    <main style={{ margin:'20px 0 40px 0 ' }}>
+    <main style={{ margin:'20px 0 20px 0 ' }}>
       <InlineGrid columns="1fr auto">
         <Text variant="headingXl" as="h4">
-          3. Review with Badge-III
+          4. Review with Grid
         </Text>
         <Box>
           <Button variant="primary" tone="success">
@@ -17,10 +15,10 @@ function BadgesThree() {
         </Box>
       </InlineGrid>
       <Box>
-      <SliderThree/>
+       <SliderFour/>
       </Box>
-    </main>
-  );
+      </main>
+  )
 }
 
-export default BadgesThree;
+export default BadgesFour

@@ -5,6 +5,7 @@ import { useCallback, useState } from 'react';
 import ConnectGoogle from "./Component/connectgoogle";
 import Help from "./Component/Help"
 import Layout from "./Component/layout/layout";
+import LayoutSetting from "./Component/layoutSetting/layoutSetting";
 
 
 
@@ -34,6 +35,7 @@ function Widges() {
       id: "repeat-customers-1",
       content: "Layout Setting",
       panelID: "repeat-customers-content-1",
+      component:<LayoutSetting/>
     },
     {
       id: "prospects-1",

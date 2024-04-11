@@ -3,7 +3,7 @@
 client_id = "283e30a82af6c51cf4ddaaf2a4ac7fdc"
 name = "remix-google-review"
 handle = "remix-google-review"
-application_url = "https://superior-sms-chronic-nb.trycloudflare.com"
+application_url = "https://ons-intelligent-proposition-shots.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://superior-sms-chronic-nb.trycloudflare.com/auth/callback",
-  "https://superior-sms-chronic-nb.trycloudflare.com/auth/shopify/callback",
-  "https://superior-sms-chronic-nb.trycloudflare.com/api/auth/callback"
+  "https://ons-intelligent-proposition-shots.trycloudflare.com/auth/callback",
+  "https://ons-intelligent-proposition-shots.trycloudflare.com/auth/shopify/callback",
+  "https://ons-intelligent-proposition-shots.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
