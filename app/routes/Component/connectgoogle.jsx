@@ -5,13 +5,13 @@ import {
   InlineGrid,
   Text,
   Box,
-  InlineStack,Divider
+  InlineStack,
+  Divider,
 } from "@shopify/polaris";
 
 import { review } from "../../constant/review";
 import { useNavigation } from "@remix-run/react";
 import Homeslider from "./slider/homeSlider";
-
 
 function ConnectGoogle() {
   const image = review.company[0].photo;
@@ -43,27 +43,23 @@ function ConnectGoogle() {
         </InlineGrid>
       </Card>
       <Box padding="400">
-      <InlineGrid columns="1fr auto">
-      <Box>
+        <InlineGrid columns="1fr auto">
+          <Box>
+            <Text variant="headingMd" as="h6">
+              {" "}
+              Refresh reviews
+            </Text>
+            <Text>You can refresh your reviews once every 24 hours</Text>
+          </Box>
 
-      <Text variant="headingMd" as="h6"> Refresh reviews</Text>
-        <Text>You can refresh your reviews once every 24 hours</Text>
+          <Button variant="secondary">Refresh now</Button>
+        </InlineGrid>
+      </Box>
+      <Box padding="200">
+        <Divider borderColor="border-inverse" />
       </Box>
 
-        <Button
-          variant="secondary"
-        >
-          Refresh now
-        </Button>
-      </InlineGrid>
-
-      </Box>
-      <Box padding='200'>
-      <Divider borderColor="border-inverse" />
-      </Box>
-
-<Homeslider/>
-
+      <Homeslider />
     </main>
   );
 }

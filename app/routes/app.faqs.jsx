@@ -362,6 +362,7 @@ function FAQs() {
                   <Text>
                     To see your reviews on your website, launch the page
                     Customizer in Shopify. You can navigate there by selecting
+
                     <strong>
                       Online store {">"} Themes {">"} Customize.
                     </strong>

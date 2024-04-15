@@ -3,7 +3,7 @@
 client_id = "283e30a82af6c51cf4ddaaf2a4ac7fdc"
 name = "remix-google-review"
 handle = "remix-google-review"
-application_url = "https://ons-intelligent-proposition-shots.trycloudflare.com"
+application_url = "https://having-treasurer-destination-bedrooms.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://ons-intelligent-proposition-shots.trycloudflare.com/auth/callback",
-  "https://ons-intelligent-proposition-shots.trycloudflare.com/auth/shopify/callback",
-  "https://ons-intelligent-proposition-shots.trycloudflare.com/api/auth/callback"
+  "https://having-treasurer-destination-bedrooms.trycloudflare.com/auth/callback",
+  "https://having-treasurer-destination-bedrooms.trycloudflare.com/auth/shopify/callback",
+  "https://having-treasurer-destination-bedrooms.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
